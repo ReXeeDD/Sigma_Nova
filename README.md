@@ -18,6 +18,11 @@ Because of its recurrent Gated Context Memory architecture, it scales linearly `
    - `model/nova_v6_weights_instruct.pt`
    - `model/nova_tokenizer.json`
 
+## Kaggle Notebook
+
+You can also try out the model directly in your browser without any installation using our public Kaggle notebook:
+- **[SigmaNOVA Infer Public Notebook](https://www.kaggle.com/code/albin7034/sigma-nova-infer-public)**
+
 ## Chatting with the Model
 
 To launch the interactive chat interface, simply run:
@@ -65,7 +70,7 @@ Here are some real examples of the model's responses during benchmark testing:
 - **Training:** Full Backpropagation Through Time (BPTT) with `<|sep|>` and `<|end|>` boundary tokens.
 
 
-## ⚖️ License
+##  License
 This project uses a split-license approach to best protect both the software and the data:
 
 * **Codebase & Scripts:** Licensed under the [Apache License 2.0](LICENSE).
@@ -73,7 +78,7 @@ This project uses a split-license approach to best protect both the software and
 
 You are free to use, modify, and build commercial products with SigmaNOVA
 
-## 📝 How to Give Credit
+##  How to Give Credit
 If you use this model or code in your project, you must provide proper attribution:
 1. For the **code**, you must include the contents of the `NOTICE` file in your documentation or app credits.
 2. For the **model weights**, you must credit **[Albin Thomas]** and link back to this repository.
